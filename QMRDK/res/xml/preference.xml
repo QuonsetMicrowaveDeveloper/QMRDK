@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_screen" >
+    
+    <ListPreference 
+        android:title="@string/defaultMode"
+        android:key="defaults"
+        android:defaultValue="5"
+        android:entries="@array/defaultMode"
+        android:entryValues="@array/defaultModeValues"
+        />"
+     
+     <ListPreference
+        android:title="@string/sweepType"
+        android:key="sweeper"
+   		android:defaultValue="2"
+   		android:entries="@array/sweepType"
+   		android:entryValues="@array/sweepTypeValues"
+   		/>
+     
+     <EditTextPreference
+         android:title="@string/rampTime"
+         android:key="rampTimeEntered"
+         android:dialogTitle="@string/ramptimeTitle"
+         android:defaultValue="16"
+         android:inputType="number"
+         android:maxLength="5"
+         android:negativeButtonText="@null"
+         android:persistent="true"
+         />
+        
+      <EditTextPreference
+         android:title="@string/refDivider"
+         android:key="refDividerEntered"
+         android:dialogTitle="@string/refDividerTitle"
+         android:defaultValue="1"
+         android:inputType="number"
+         android:maxLength="3"
+         android:negativeButtonText="@null"
+         />
+      
+       <EditTextPreference
+         android:title="@string/startFreq"
+         android:key="startFreqEntered"
+         android:dialogTitle="@string/FreqTitle"
+         android:defaultValue="2.4"
+         android:inputType="numberDecimal"
+         android:maxLength="5"
+         android:negativeButtonText="@null"
+         />
+       
+        <EditTextPreference
+         android:title="@string/stopFreq"
+         android:key="stopFreqEntered"
+         android:dialogTitle="@string/FreqTitle"
+         android:defaultValue="2.5"
+         android:inputType="numberDecimal"
+         android:maxLength="5"
+         android:negativeButtonText="@null"
+         />
+   
+</PreferenceScreen>

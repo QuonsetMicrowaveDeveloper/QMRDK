@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="defaultMode">
+      <item>Capture and Plot</item>
+      <item>Share</item>
+      <item>Quick Start</item>
+      <item>Process</item>
+      <item >Bluetooth I/O</item>
+      <item >None</item>
+        </string-array>
+       
+   <string-array name="defaultModeValues">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+       <item >4</item>
+       <item >5</item>
+       </string-array>
+       
+      <string-array name="sweepType">
+       <item>Triggered 1-Way (Sawtooth)</item>
+       <item>Triggered 2-Way (Triangle)</item>
+       <item>Automatic 2-Way (Triangle)</item>
+       <item>CW Mode</item>
+       </string-array>
+       
+   <string-array name="sweepTypeValues">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+   </string-array>
+</resources>

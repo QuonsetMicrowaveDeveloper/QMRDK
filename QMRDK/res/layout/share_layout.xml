@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".shareFragment" >
+
+    
+    <Button
+        android:id="@+id/uploadbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uploadpress" />
+    
+        <TextView
+            android:id="@+id/uploadInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/chooseFiles" 
+            android:layout_below="@+id/uploadbutton"/>
+        
+        <ListView
+            android:id="@+id/filelistView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:choiceMode="multipleChoice" 
+       		android:layout_below="@+id/uploadInstructions"
+            android:layout_centerHorizontal="true"
+            >
+        </ListView>
+
+</RelativeLayout>

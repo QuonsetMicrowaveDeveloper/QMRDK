@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+S:\Users\Zach_White\Android Workspace\QMRDK\.metadata\.plugins\org.eclipse.jdt.core

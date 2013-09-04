@@ -1,0 +1,7 @@
+syntax: glob
+bin/jarlist.cache
+bin/classes/com/quonsetmicro/qmrdk/btcommFragment.class
+bin/classes/com/quonsetmicro/qmrdk/btcommFragment$ConnectedThread.class
+bin/classes/com/quonsetmicro/qmrdk/btcommFragment$ConnectThread.class
+bin/classes/com/quonsetmicro/qmrdk/btcommFragment$AcceptThread.class
+bin/R.txt
